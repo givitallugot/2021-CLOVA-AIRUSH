@@ -11,7 +11,7 @@ No. | 모델 | RMSE
 **x** | **Baseline** | 65.xxxx
 **377** | **LSTM+Windowing** | 72.7681
 **399** | **Hybrid+Windowing** | 63.24296
-**539** | **MLP** | 62.20957
+**539** | **MLP (BEST)** | 62.20957
 
 <br>
 
