@@ -4,12 +4,13 @@
 
 ## 리더보드 점수
 
-# | 모델 | RMSE
+No. | 모델 | RMSE
 ---- | ----- | ----- 
 **x** | **Baseline** | 65.xxxx
 **377** | **LSTM+Windowing** | 72.7681
 **399** | **Hybrid+Windowing** | 63.24296
 **539** | **MLP** | 62.20957
+
 
 # 1. LSTM + Windowing
 Window size를 7로 설정하여 7번째 전 도착 정보를 함께 훈련한다. 다음과 같은 피처를 함께 사용한다.
